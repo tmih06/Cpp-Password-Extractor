@@ -8,7 +8,11 @@ This is a tool that extracts passwords from various web browsers. It is written 
 -   [WinCrypt](https://docs.microsoft.com/en-us/windows/win32/api/wincrypt/) - for decrypting the master key
 -   [Hide String](https://github.com/tmih06/Hide-string-from-x86-debugger) - hide string from debuggers
 
-## This only work on window 10+ !!!
+### This only work on window 10+ !!!
+
+## Preview video:
+https://github.com/tmih06/Cpp-Password-Extractor/assets/112760114/46cd79c6-de76-4a20-97c2-f4974e66a5ef
+
 
 # Step-by-step of how to compile
 
