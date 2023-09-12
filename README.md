@@ -39,7 +39,7 @@ cd..
 Now include your openssl folder, mine are "D:\OpenSSL-Win64" so it gonna be:
 
 ```shell
-g++ .\main.cpp -o program -I "D:\OpenSSL-Win64\include" -L "D:\OpenSSL-Win64\lib" ".\sqlite\sqlite3.dll" -lssl -lcrypto -lcrypt32 -Os
+g++ .\main.cpp -o program -I "D:\OpenSSL-Win64\include" -L "D:\OpenSSL-Win64\lib" ".\sqlite\sqlite3.dll" -static-libgcc -static-libstdc++ -lssl -lcrypto -lcrypt32 -Os
 ```
 
 By the way this code cannot be compiled statically, you can use [my packer](https://github.com/tmih06/packer-and-unpacker) and pack these dll file
